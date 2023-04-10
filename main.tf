@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    hostname = "master-quagga.tf-support.hashicorpdemo.com"
+    hostname = "safe-corgi.tf-support.hashicorpdemo.com"
     organization = "example-org"
 
     workspaces {
