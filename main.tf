@@ -9,8 +9,8 @@ terraform {
   }
 }
 
-module "eks" {
-  source  = "localterraform.com/example-org/eks/aws"
+module "module" {
+  source  = "localterraform.com/example-org/module/null"
   version = "1.0.0"
 }
 
