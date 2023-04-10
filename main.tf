@@ -1,12 +1,6 @@
 terraform {
-  cloud {
-    hostname = "safe-corgi.tf-support.hashicorpdemo.com"
-    organization = "example-org"
-
-    workspaces {
-      name = "agent-pls"
-    }
-  }
+backend "remote" {
+}
 }
 
 module "module" {
